@@ -1,0 +1,5 @@
+r = int(input())
+k = int(input())
+n = int(input())
+s = (r + k / 100) * n
+print('За', n, 'мяча нужно заплатить', int(s), 'рублей и', int(s // 100), 'копеек')
