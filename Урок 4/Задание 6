@@ -1,0 +1,6 @@
+num = int(input())
+dig1 = num // 1000
+dig2 = num // 100 % 10
+dig3 = num // 10 % 10
+dig4 = num % 10
+print('У числа', num, 'максимальная цифра равна', max(dig1, dig2, dig3, dig4))
