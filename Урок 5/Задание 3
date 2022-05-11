@@ -1,0 +1,8 @@
+ticket = int(input())
+first = (ticket // 100000) + (ticket // 10000 % 10) + (ticket // 1000 % 10)
+second = (ticket % 1000 // 100) + (ticket % 100 // 10) + (ticket % 10)
+if first == second:
+    print('Билет', ticket, 'счастливый')
+else:
+    print('Билет', ticket, 'НЕсчастливый')
+    
