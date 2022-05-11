@@ -1,6 +1,4 @@
-print('password')
 pass1 = input()
-print('password')
 pass2 = input()
 if pass1 == pass2:
     print('Все окей!')
