@@ -1,0 +1,5 @@
+import math
+k = int(input())
+m = int(input())
+day = k / m
+print(math.ceil(day))
