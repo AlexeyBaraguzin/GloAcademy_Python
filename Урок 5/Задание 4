@@ -1,0 +1,6 @@
+w = int(input())
+half = w / 2
+if half % 2 == 0:
+    print('Yes')
+else:
+    print('No')
