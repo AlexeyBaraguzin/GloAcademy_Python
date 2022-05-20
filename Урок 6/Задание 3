@@ -1,0 +1,10 @@
+article1 = input()
+article2 = input()
+article3 = input()
+if len(article1) > len(article2):
+    if len(article1) > len(article3):
+        print(article1)
+    else:
+        print(article3)
+else:
+    print(article2)
