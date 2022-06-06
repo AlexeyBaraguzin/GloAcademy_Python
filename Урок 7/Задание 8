@@ -1,18 +1,12 @@
 n = int(input())
 if n >= 2:
-    first = int(input())
-    second = int(input())
-    if first > second:
-        maximum = first
-        minimum = second
-    else:
-        maximum = second
-        minimum = first    
-    for i in range(n - 2):
+    maximum = int(input())
+    minimum = maximum
+    for i in range(n - 1):
         number = int(input())
         if number > maximum:
             maximum = number
-        if number < minimum:
-            minimum = number
+        else:
+            number = minimum
 print('Минимум равен', minimum)
 print('Максимум равен', maximum)
