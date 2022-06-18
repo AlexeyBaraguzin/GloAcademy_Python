@@ -1,0 +1,10 @@
+counter_positive = 0
+counter_negative = 0
+n = 1
+while n != 0:
+    n = int(input())
+    if n > 0:
+        counter_positive += 1
+    if n < 0:
+        counter_negative += 1
+print(counter_positive * counter_negative)
