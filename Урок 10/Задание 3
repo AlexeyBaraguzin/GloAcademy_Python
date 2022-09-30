@@ -1,9 +1,7 @@
 flag = 0
 s = (input())
-print(ord(s))
 for i in range(1040, 1072):
     if ord(s) == i:
-        print(i)
         flag = 1
 if flag != 0:
     print('YES')
