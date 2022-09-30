@@ -1,0 +1,14 @@
+flag = 0
+s = (input())
+for i in range(65, 91):
+    if ord(s) == i:
+        flag = 1
+for k in range(97, 123):
+    if ord(s) == k:
+        flag = 2
+if flag == 1:
+    print(s.lower())
+if flag == 2:
+    print(s.upper())
+if flag == 0:
+    print(s)
