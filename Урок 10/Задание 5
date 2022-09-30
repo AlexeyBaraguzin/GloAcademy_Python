@@ -1,0 +1,10 @@
+s1 = (input())
+s2 = (input())
+if ord(s1) < ord(s2):
+   for i in range(ord(s1), ord(s2) + 1):
+      simbol = chr(i)
+      print(simbol, end='')
+else:
+   for i in range(ord(s2), ord(s1) + 1):
+      simbol = chr(i)
+      print(simbol, end='')
